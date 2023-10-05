@@ -1,0 +1,604 @@
+{
+	"info": {
+		"_postman_id": "cb0c8837-fbdb-4321-a03b-823661650df6",
+		"name": "restapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29573394"
+	},
+	"item": [
+		{
+			"name": "Localidad",
+			"item": [
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/localidades",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"denominacion\": \"San Martin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/localidades",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/localidades/1",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/localidades",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/localidades/1",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"localidades",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Autor",
+			"item": [
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/autores",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/autores/1",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/autores",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/autores",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/autores/1",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"autores",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Libro",
+			"item": [
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/libros",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"libros"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/libros/1",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"libros",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/libros",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"libros"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/libros",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"libros"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/libros/1",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"libros",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Persona",
+			"item": [
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/personas",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/personas/1",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/personas",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/personas",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/personas/1",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"personas",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Domicilio",
+			"item": [
+				{
+					"name": "Get all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/domicilios",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"domicilios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/domicilios/1",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"domicilios",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/domicilios",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"domicilios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/domicilios",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"domicilios"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://restfake-api.onrender.com/api/v1/domicilios/1",
+							"protocol": "https",
+							"host": [
+								"restfake-api",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"v1",
+								"domicilios",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
